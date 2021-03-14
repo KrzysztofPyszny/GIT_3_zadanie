@@ -31,5 +31,17 @@ namespace GIT_3_zadanie
             /* Zwraca losową liczbę typu Int */
             return (new Random()).Next(min, max + 1);
         }
+        public static Karta[] shuffle(Karta[] deck)
+        {
+            /* Zwraca potasowaną tablicę obiektów Karta */
+            for (int i = 0; i < deck.Length; i++)
+            {
+                Karta temp = deck[i];
+                int rand = rInt(0, (deck.Length - 1));
+                deck[i] = deck[rand];
+                deck[rand] = temp;
+            }
+            return deck;
+        }
     }
 }
