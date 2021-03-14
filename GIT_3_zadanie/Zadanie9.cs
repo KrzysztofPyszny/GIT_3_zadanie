@@ -26,5 +26,10 @@ namespace GIT_3_zadanie
             Random r = new Random();
             return (new Karta(tabKolor[r.Next(0, tabKolor.Length)], tabNazwa[r.Next(0, tabNazwa.Length)]));
         }
+        public static int rInt(int min, int max)
+        {
+            /* Zwraca losową liczbę typu Int */
+            return (new Random()).Next(min, max + 1);
+        }
     }
 }
