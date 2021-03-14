@@ -18,5 +18,13 @@ namespace GIT_3_zadanie
                 this.nazwaKarty = nazwaKarty;
             }
         }
+        public static Karta createKarta()
+        {
+            /* Zwraca Karte z losowymi wartościami parametrów */
+            string[] tabKolor = new string[] { "trefl", "pik", "karo", "kier" };
+            string[] tabNazwa = new string[] { "walet", "dama", "król", "as", "dwójka", "trójka", "czwórka", "piątka", "szóstka", "siódemka", "ósemka", "dziewiątka", "dziesiątka" };
+            Random r = new Random();
+            return (new Karta(tabKolor[r.Next(0, tabKolor.Length)], tabNazwa[r.Next(0, tabNazwa.Length)]));
+        }
     }
 }
