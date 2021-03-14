@@ -17,11 +17,11 @@ namespace GIT_3_zadanie
                 "Możesz wykorzystać prosty algorytm znany pod nazwą Fisher–Yates shuffle.\n" +
                 "W programie użyj metody Array.ForEach(T[], Action<T>) w celu wyświetlenia zawartości\n" +
                 "tablicy przed tasowaniem i po tasowaniu.Metoda ta dla podanej tablicy typu T wykonuje\n" +
-                "akcję zdefiniowaną poprzez delegata Action<T>.Do definicji akcji użyj wyrażenia lambda.";
+                "akcję zdefiniowaną poprzez delegata Action<T>.Do definicji akcji użyj wyrażenia lambda.\n";
 
         public static string zad10 = "Napisz program z metodą generyczną służącą do sortowania tablicy obiektów\n" +
             "dla dowolnej klasy(np.klasy Towar).Sortowanie wykonaj samodzielnie, stosując algorytm\n" +
             "sortowania bąbelkowego.Zdefiniuj delegat wskazujący na metodę służącą do porównywania\n" +
-            "obiektów(według wybranego pola klasy lub jej właściwości).";
+            "obiektów(według wybranego pola klasy lub jej właściwości).\n";
     }
 }
