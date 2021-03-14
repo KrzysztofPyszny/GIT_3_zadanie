@@ -48,6 +48,7 @@
     <Compile Include="Tresc.cs" />
     <Compile Include="Zadanie10\PrzykladoweSortowanie.cs" />
     <Compile Include="Zadanie10\Towar.cs" />
+    <Compile Include="Zadanie9.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
