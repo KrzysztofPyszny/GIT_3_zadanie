@@ -23,7 +23,7 @@ namespace GIT_3_zadanie
                 {
                     case 9:
                         Console.WriteLine(Tresc.zad9);
-                        Zadanie9.Execute();
+                        Zadanie9.Execute(); // Konfliktowy_komentarz
                         break;
                     case 10:
                         Console.WriteLine(Tresc.zad10);
