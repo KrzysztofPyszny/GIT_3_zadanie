@@ -10,7 +10,7 @@ namespace GIT_3_zadanie
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Zadania programowanie współbieżne i rozproszone.test");
+            Console.WriteLine("Zadania programowanie współbieżne i rozproszone.");
 
             int wybor;
             do
