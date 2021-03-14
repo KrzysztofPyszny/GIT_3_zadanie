@@ -8,6 +8,7 @@ namespace GIT_3_zadanie
 {
     class Zadanie9
     {
+        public static Random rand = new Random();
         public class Karta
         {
             public string kolorKarty;
@@ -23,13 +24,13 @@ namespace GIT_3_zadanie
             /* Zwraca Karte z losowymi wartościami parametrów */
             string[] tabKolor = new string[] { "trefl", "pik", "karo", "kier" };
             string[] tabNazwa = new string[] { "walet", "dama", "król", "as", "dwójka", "trójka", "czwórka", "piątka", "szóstka", "siódemka", "ósemka", "dziewiątka", "dziesiątka" };
-            Random r = new Random();
+            Random r = Zadanie9.rand;
             return (new Karta(tabKolor[r.Next(0, tabKolor.Length)], tabNazwa[r.Next(0, tabNazwa.Length)]));
         }
         public static int rInt(int min, int max)
         {
             /* Zwraca losową liczbę typu Int */
-            return (new Random()).Next(min, max + 1);
+            return Zadanie9.rand.Next(min, max + 1);
         }
         public static Karta[] shuffle(Karta[] deck)
         {
