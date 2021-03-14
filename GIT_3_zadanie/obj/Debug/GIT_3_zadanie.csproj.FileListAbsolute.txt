@@ -5,3 +5,10 @@ C:\Users\KrzysztofPyszny\Desktop\GIT_3_zadanie\GIT_3_zadanie\obj\Debug\GIT_3_zad
 C:\Users\KrzysztofPyszny\Desktop\GIT_3_zadanie\GIT_3_zadanie\obj\Debug\GIT_3_zadanie.csproj.CoreCompileInputs.cache
 C:\Users\KrzysztofPyszny\Desktop\GIT_3_zadanie\GIT_3_zadanie\obj\Debug\GIT_3_zadanie.exe
 C:\Users\KrzysztofPyszny\Desktop\GIT_3_zadanie\GIT_3_zadanie\obj\Debug\GIT_3_zadanie.pdb
+C:\Users\Misia\Desktop\naPoniedziałek\GIT_3\GIT_3_zadanie\GIT_3_zadanie\bin\Debug\GIT_3_zadanie.exe.config
+C:\Users\Misia\Desktop\naPoniedziałek\GIT_3\GIT_3_zadanie\GIT_3_zadanie\bin\Debug\GIT_3_zadanie.exe
+C:\Users\Misia\Desktop\naPoniedziałek\GIT_3\GIT_3_zadanie\GIT_3_zadanie\bin\Debug\GIT_3_zadanie.pdb
+C:\Users\Misia\Desktop\naPoniedziałek\GIT_3\GIT_3_zadanie\GIT_3_zadanie\obj\Debug\GIT_3_zadanie.csprojAssemblyReference.cache
+C:\Users\Misia\Desktop\naPoniedziałek\GIT_3\GIT_3_zadanie\GIT_3_zadanie\obj\Debug\GIT_3_zadanie.csproj.CoreCompileInputs.cache
+C:\Users\Misia\Desktop\naPoniedziałek\GIT_3\GIT_3_zadanie\GIT_3_zadanie\obj\Debug\GIT_3_zadanie.exe
+C:\Users\Misia\Desktop\naPoniedziałek\GIT_3\GIT_3_zadanie\GIT_3_zadanie\obj\Debug\GIT_3_zadanie.pdb

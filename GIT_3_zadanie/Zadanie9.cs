@@ -67,5 +67,21 @@ namespace GIT_3_zadanie
             Action<int> localShuffle = x => Console.WriteLine(" {0} ", x);
             Array.ForEach(deck, localShuffle);
         }
+        public static void Execute() {
+            /* po 10 Randomowych Elementów w każdej tablicy */
+            int[] tabInt = new int[] { rInt(0, 9), rInt(0, 9), rInt(0, 9), rInt(0, 9), rInt(0, 9), rInt(0, 9), rInt(0, 9), rInt(0, 9), rInt(0, 9), rInt(0, 9) };
+            Karta[] tabKar = new Karta[] { createKarta(), createKarta(), createKarta(), createKarta(), createKarta(), createKarta(), createKarta(), createKarta(), createKarta(), createKarta() };
+            /* Pokazanie zawartości Talii przed tasowaniem */
+            Console.WriteLine("Przed Tasowaniem:");
+            showMeDeck(tabKar);
+            showMeDeck(tabInt);
+            /* Tasowanie wygenerowanych tablic */
+            shuffle(tabKar);
+            shuffle(tabInt);
+            /* Pokazanie zawartości Talii po tasowaniu*/
+            Console.WriteLine("Po Tasowaniu");
+            showMeDeck(tabKar);
+            showMeDeck(tabInt);
+        }
     }
 }
