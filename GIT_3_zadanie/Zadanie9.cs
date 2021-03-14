@@ -61,5 +61,11 @@ namespace GIT_3_zadanie
             Action<Karta> localShuffle = x => Console.WriteLine("Kolor: {0} Nazwa: {1}", x.kolorKarty, x.nazwaKarty);
             Array.ForEach(deck, localShuffle);
         }
+        public static void showMeDeck(int[] deck)
+        {
+            /* Wersja pokazująca Int-y */
+            Action<int> localShuffle = x => Console.WriteLine(" {0} ", x);
+            Array.ForEach(deck, localShuffle);
+        }
     }
 }
