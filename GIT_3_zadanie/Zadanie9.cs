@@ -55,5 +55,11 @@ namespace GIT_3_zadanie
             }
             return deck;
         }
+        public static void showMeDeck(Karta[] deck)
+        {
+            /* Wersja pokazująca karty */
+            Action<Karta> localShuffle = x => Console.WriteLine("Kolor: {0} Nazwa: {1}", x.kolorKarty, x.nazwaKarty);
+            Array.ForEach(deck, localShuffle);
+        }
     }
 }
