@@ -10,12 +10,12 @@ namespace GIT_3_zadanie
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Zadania programowanie współbieżne i rozproszone.\n");
+            Console.WriteLine("Zadania programowanie współbieżne i rozproszone.");
 
             int wybor;
             do
             {
-                Console.WriteLine("Wybierz zadanie 9 tasowanie obiektów wpisując: 9,\n" +
+                Console.WriteLine("\nWybierz zadanie 9 tasowanie obiektów wpisując: 9,\n" +
                     "lub zadanie 10 sortowanie tablicy obiektow wpisując: 10,\n" +
                     "aby wyjść z programu wpisz: 0\n");
                 wybor = int.Parse(Console.ReadLine());
@@ -26,6 +26,7 @@ namespace GIT_3_zadanie
                         break;
                     case 10:
                         Console.WriteLine(Tresc.zad10);
+                        PrzykladoweSortowanie.SorotwaniePrzyklad();
                         break;
                 }
             } while (wybor != 0);

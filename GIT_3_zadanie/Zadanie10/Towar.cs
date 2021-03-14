@@ -38,21 +38,21 @@ namespace GIT_3_zadanie
                 return false;
             }
         }
+
         public static Towar[] PosortujTowary<T, X>(Towar[] towary, delegacja_porownanie_cen comparer)
         {
-            int n = towary.Length;
-            while (n > 1)
+            Towar temp;
+            for (int j = 0; j <= towary.Length - 2; j++)
             {
-                for (int i = 0; i < (n - 1); i++)
+                for (int i = 0; i <= towary.Length - 2; i++)
                 {
-                    if (comparer(towary[i], towary[i + 1]))
+                    if (towary[i].cena > towary[i + 1].cena)
                     {
-                        double tmp = towary[i].cena;
-                        towary[i].cena = towary[i + 1].cena;
-                        towary[i + 1].cena = tmp;
+                        temp = towary[i + 1];
+                        towary[i + 1] = towary[i];
+                        towary[i] = temp;
                     }
                 }
-                n -= 1;
             }
             return towary;
         }
