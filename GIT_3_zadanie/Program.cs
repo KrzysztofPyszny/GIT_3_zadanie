@@ -10,7 +10,7 @@ namespace GIT_3_zadanie
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Zadania programowanie współbieżne i rozproszone.test");
+            Console.WriteLine("Zadania programowanie współbieżne i rozproszone.");
 
             int wybor;
             do
@@ -23,7 +23,7 @@ namespace GIT_3_zadanie
                 {
                     case 9:
                         Console.WriteLine(Tresc.zad9);
-                        /*2konfliktowy_komentarz*/ 
+                        Zadanie9.Execute();/*2konfliktowy_komentarz*/
                         break;
                     case 10:
                         Console.WriteLine(Tresc.zad10);
