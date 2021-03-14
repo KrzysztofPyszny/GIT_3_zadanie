@@ -43,5 +43,17 @@ namespace GIT_3_zadanie
             }
             return deck;
         }
+        public static int[] shuffle(int[] deck)
+        {
+            /* Zwraca potasowaną tablicę wartościa typu Int */
+            for (int i = 0; i < deck.Length; i++)
+            {
+                int temp = deck[i];
+                int rand = rInt(0, (deck.Length - 1));
+                deck[i] = deck[rand];
+                deck[rand] = temp;
+            }
+            return deck;
+        }
     }
 }
